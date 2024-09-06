@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "WebAuthn API credentialID logger",
+  "version": "1.0",
+  "description": "Sniff credentialIDs when signing in using WebAuthn credentials",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "world": "MAIN",
+      "run_at": "document_start"
+    }
+  ],
+ "icons": {
+    "16": "fido16.png",
+    "32": "fido32.png",
+    "48": "fido48.png",
+    "128": "fido128.png"
+  }
+}
