@@ -13,6 +13,7 @@ To load the extension into Chrome:
 - Enable "Developer mode" in the top right corner.
 - Click on "Load unpacked" and select the directory containing your extension files.
 
+WARNING: never install extensions in your browser this way unless you know what it is doing!
 
 # Use
 
